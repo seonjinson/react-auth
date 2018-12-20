@@ -1,0 +1,187 @@
+
+
+/* ==========================================================================
+ 	Global
+ ========================================================================== */
+
+ html,
+ body {
+	 font-size: 14px;
+	 font-weight:400;
+	 overflow-x: hidden;
+	 background-color: #fff;
+	 font-family: 'Roboto', sans-serif;
+	 -webkit-font-smoothing: antialiased;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+	 font-weight: 700;
+	 font-family: 'Roboto', sans-serif;
+ }
+ 
+ 
+ 
+ /*custom css style */
+ html{ height: 100%;}
+ body{ height: 100%; }
+ 
+ /*top*/
+ .mypageHeader {	height: 50px; background-color: #f8f8f8; border-bottom: 1px solid #e7e7e7;}
+ .mypageHeader a.logo{ float: left; display: block; height: 50px;  }
+ .mypageHeader a.logo img{ height: 42px; margin-top: 5px;}
+ .mypageHeader a.logout{ float: right; margin-top: 10px;}
+ /********************** xs **************************/
+ @media (max-width: 767px) {
+	 .mypageHeader a.logo img{ height: 40px; margin-top: 5px;}
+ }
+ 
+ 
+ /* Gb Footer */
+ .gb-footer {
+	 color: #fff;
+	 font-size: 14px;
+	 padding: 35px 0;
+	 background-color: #333;
+ }
+ 
+ .gb-footer a {
+	 color: #fff;
+	 font-weight: 700;
+ }
+ 
+ 
+ 
+ /*content*/
+ .mypageContent {
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+ }
+ .mypageContent .email-account{
+	 text-align: center;
+ }
+ .mypageContent .email-account .user-icon{
+	 display: block;
+	 margin-bottom: 10px;
+ }
+ .mypageContent .email-account .user-icon img {
+	 border-radius: 50%;
+	 width: 40px;
+	 height: 40px;
+ }
+ .mypageContent .email-account .user-email{
+	 word-break: break-all;
+ }
+ 
+ 
+ 
+ 
+ /*mypage-sub-menu*/
+ .mypage-sub-menu{}
+ .mypage-sub-menu .sub-menu{ padding: 15px; }
+ 
+ 
+ .mypage-sub-contents{ 
+	 border: 1px solid #e5e5e5;
+	 padding: 15px;    
+	 border-radius: 3px;
+ }
+ .mypage-sub-contents .articleBox {
+	 margin-bottom: 50px;
+ }
+ .mypage-sub-contents h1{ font-size: 34px; margin-top: 0;}
+ .mypage-sub-contents .contents-title {
+	 padding-bottom: 15px; border-bottom: 2px solid #d4d4d4;
+	 margin-bottom: 15px;
+ }
+ .mypage-sub-contents h2{ font-size: 18px;}
+ .mypage-sub-contents h2 i{ margin-right: 5px;}
+ .mypage-sub-contents h3{ font-size: 14px;}
+ .mypage-sub-contents .outline-box {
+	 border: 1px solid #e5e5e5; 
+	 border-radius: 3px; padding: 10px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .mypage-sub-contents .timerBox{ }
+ .mypage-sub-contents .timerBox .timerTitle{ }
+ .mypage-sub-contents .timerList { padding: 0px;}
+ .mypage-sub-contents .timerList > li { display: inline-block;}
+ .mypage-sub-contents .timerList > li .digit { display: block; width: 70px; height: 74px; line-height: 74px; border-radius: 3px; background-color: #000; color: #fff; font-size: 42px; font-weight: 700; text-align: center;}
+ .mypage-sub-contents .timerList > li .unit{ text-align: center;}
+ 
+ .mypage-sub-contents .progressBox{ margin-top: 40px;}
+ .mypage-sub-contents .progressBox .progTxt { margin-top: -10px;}
+ .mypage-sub-contents .progressBox .progTxt .totalPrice { font-weight: 700; font-size: 16px; }
+ .mypage-sub-contents .progressBox .progTxt .totalPrice span{font-weight: 300; font-size: 14px; color: gray;}
+ 
+ .purchaseOmex .omxValue{ margin-top: 30px;}
+ .purchaseOmex .omxValue .input-group .input-group-addon{ min-width: 70px;}
+ .purchaseOmex .omxValue .icoArrow{ text-align: center; font-size: 40px; line-height: 2em;}
+ .purchaseOmex .omxValue .leftGroup{}
+ .purchaseOmex .omxValue .leftGroup .input-group{ margin-top: 18px;}
+ .purchaseOmex .omxValue .rightGroup{}
+ .purchaseOmex .omxValue .rightGroup .input-group + .input-group{ margin-top: 10px;}
+ 
+ .purchaseOmex .step1 .buyBtn{
+	 margin-top: 20px;
+ }
+ .purchaseOmex .step1 .buyBtn button i{ margin-left: 10px;}
+ .purchaseOmex .step2{ padding: 15px; background-color: #f5f5f5; border-radius: 5px;}
+ .purchaseOmex .step2 .title{
+	 text-align: center;
+	 color: #2c7aba;
+ }
+ .purchaseOmex .step2 .copyUrl{
+	 margin-top: 20px;
+ }
+ 
+ 
+ 
+ 
+ 
+ /*Notice*/
+ 
+ .myNotice .list-top-search{
+	 margin-top: 15px;
+	 margin-bottom: 15px;
+ }
+ .myNotice table td .important-ico{
+	 margin-right: 5px;
+ }
+ .myNotice td i.important-mark{ color: #d9534f; font-size: 18px; margin-right: 5px;}
+ /********************** xs **************************/
+ @media (max-width: 767px) {
+	 .myNotice .list-top-search .input-group{ margin-top: 10px;}
+ }
+ 
+ /********************** xs **************************/
+ @media (max-width: 560px) {
+	 .myNotice .list-table .list-th-num,
+	 .myNotice .list-table .list-th-writer{
+		 display: none;
+	 }
+	 .myNotice .list-table .list-td-num,
+	 .myNotice .list-table .list-td-writer{
+		 display: none;
+	 }
+ }
+ 
+ 
+ 
+ .myNotice-detail .notice-title{
+	 font-size: 20px;
+	 font-weight: 500;
+ }
+ 
+ .myNotice-detail .txt-info{
+	 color: #939393;
+ }
+  
+ 
+ 
+ 
+ 

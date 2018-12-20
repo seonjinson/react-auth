@@ -1,0 +1,259 @@
+
+
+/* ==========================================================================
+ 	Global
+ ========================================================================== */
+
+html,
+body {
+	font-size: 14px;
+	font-weight:400;
+	overflow-x: hidden;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+
+.tr-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a, 
+a:hover,
+a:focus,
+input:focus {
+	text-decoration:none;
+	outline: none;
+}
+
+a:hover {
+	color: #61B1FF;
+}
+
+
+a:active,
+a:focus, button, button:focus,
+input:focus, textarea:focus, select:focus, 
+.form-control, .form-control:focus,
+.btn.active.focus, .btn.active:focus, 
+.btn.focus, .btn:active.focus, 
+.btn:active:focus, .btn:focus {
+    outline: none;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+}
+
+.btn {
+	font-size: 14px;
+	color: #61B1FF;
+	font-weight: 700;
+	padding: 15px 30px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	background-color: transparent;
+	border-color: #61B1FF;
+	border:1px solid #61B1FF;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.btn:before, 
+.btn:after, 
+.btn span:before, 
+.btn span:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 25.25%;
+    height: 0;
+    background-color: #61B1FF;
+    z-index: -1;
+}
+
+.btn:before {
+	left: 0;
+}
+
+.btn:after {
+	left: 50%;
+}
+
+.btn span:before {
+	left: 25%;
+}
+
+.btn span:after {
+	left: 75%;
+}
+
+.btn:hover:before, 
+.btn:hover:after, 
+.btn:hover span:before, 
+.btn:hover span:after {
+    height: 100%;
+}
+
+.btn span:before, 
+.btn span:after {
+	top:auto;
+	bottom: 0;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+.color-blue {
+	color: #61B1FF;
+}
+
+.gb-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+.title-section {
+	color: #8f8f8f;
+	line-height: 24px;
+	max-width: 600px;
+	display: inline-block;
+	margin-bottom: 65px;
+}
+
+.title-section h1 {
+	margin: 0 0 25px;
+}
+
+.section-before {
+	position: relative;
+	z-index: 1;
+}
+
+.section-before:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(237, 28, 36, 0.8);
+	z-index: -1;
+}
+
+.white-color,
+.white-color a {
+	color: #fff;
+}
+
+.white-color .btn {
+	color: #fff;
+	border-color: #fff;
+}
+
+.white-color .btn:before, 
+.white-color .btn:after, 
+.white-color .btn span:before, 
+.white-color .btn span:after {
+	background-color: #fff;
+}
+
+.white-color .btn:hover {
+	color: #61B1FF;
+}
+
+
+
+/*blue btn*/
+.btn-blue {
+	color: #fff;
+	background-color: #61B1FF;
+}
+
+.btn-blue:before,
+.btn-blue:after,
+.btn-blue span:before,
+.btn-blue span:after {
+	background-color: #fff;
+}
+
+.btn-blue:hover {
+	color: #61B1FF;
+}
+
+
+
+
+
+/*common*/
+.accountPage{ padding-top: 60px;}
+.accountPage .topLogo{text-align: center; margin-bottom: 30px;}
+.accountPage .topLogo .brand{ height: 50px; padding: 15px 15px; }
+.accountPage .topLogo .brand img{ height: 50px;}
+.accountPage .outlineBox { width: 100%; max-width: 320px; margin: 0 auto; }
+.accountPage .outlineBox a{color: #61B1FF;}
+.accountPage .outlineBox .panel-heading { font-size: 18px; font-weight: 700;}
+
+/*login*/
+.accountPage .outlineBox .chkRemember label { font-weight: 400; margin-left: 5px; }
+.accountPage .outlineBox .btnLogin{ margin-top: 15px;}
+
+/*sign up*/
+
+/*forgot password*/
+.accountPage .forgotPass .topTxt{ text-align: center;}
+.accountPage .forgotPass .topTxt .icon{ font-size: 60px;}
+.accountPage .forgotPass .topTxt .titleTxt{ margin-top: 0px; font-size: 24px;}
+.accountPage .forgotPass .topTxt .titleTxt .smTxt { display: block; margin-top: 10px; font-weight: 300; line-height: 1.4em; }
+
+.accountPage .forgotPass .panel-body .loginTxt{}
+
+
+
+
+
+
+
+
+/* ==========================================================================
+ 	Extra Css
+ ========================================================================== */
+
+a, input, .brand-icon, .work-overlay,
+.slick-prev, .slick-next, .slick-prev:before,
+.slick-next:before, .slick-dots li, .form-control,
+.gb-form .btn, .team-overlay, .member-image:after,
+.fun-fact-icon, .btn:before, .entry-thumbnail:before,
+.feature-icon, .author, .btn:before, 
+.btn:after, .btn span:before, .btn span:after,
+.portfolio-details .widget ul li i, .faq-title,
+.video-link:before, .video-link i   {
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
+
